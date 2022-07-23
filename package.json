@@ -1,0 +1,32 @@
+{
+  "name": "eshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon ./src/server.js",
+    "migration": "node ./src/conf/migrations.js",
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+<<<<<<< HEAD
+=======
+    "@hapi/inert": "^7.0.0",
+    "@hapi/jwt": "^2.1.1",
+>>>>>>> 0d9cf47af13d121c7776c9807c7a52034352be3c
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "joi": "^17.6.0",
+    "mysql": "^2.18.1",
+    "mysql-migrations": "^1.0.7",
+    "nanoid": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
